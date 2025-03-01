@@ -8,8 +8,10 @@ if __name__ == "__main__":
     # Configuración de la búsqueda
     hotel_name = "Hotel Riu Papayas - All Inclusive"  
     destination = "Playa del Inglés"  
-    start_date = datetime.now().strftime("%Y-%m-%d")  
-    num_weeks = 20  
+    #start_date = datetime.now().strftime("%Y-%m-%d")  
+    start_date = '2025-03-15'
+
+    num_weeks = 2
     
     # Ejecutar seguimiento de precios
     price_data = tracker.track_prices_weekly(
